@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <h1>MyWebsite</h1>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ8yur9CwC8d0GFwAXV1l8iqEhEaq-ooyE9w&s" alt="Logo Dp">
+    </div>
+    <nav id="nav-menu">
+      <a href="index.html">Home</a>      
+      <a href="about.html">About Me</a>
+      <a href="myproject.html">My Project</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="menu-toggle">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </header>
+
+  <section id="hero" class="hero reveal">
+    <h1>Welcome</h1>
+    <p>This is a simple one page page of html, css, and javascript that I made.</p>
+    <a href="https://www.google.com" class="btn">
+      <i class="fa-solid fa-hand-pointer"></i> Go To Google
+    </a>
+  </section>
+
+  <section id="about" class="about reveal">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src="fotosaya.jpg" alt="foto">
+      <p>
+        Hello, my name is Davin Pratama. I enjoy learning web development and am currently learning to create simple and elegant websites. I am a student of SMKN 6 Tangsel. I am competent in developing websites using programming languages such as HTML, CSS, JavaScript, which I am still learning.
+      </p>
+    </div>
+  </section>
+
+<section id="hosting" class="friends reveal">
+  <h3>Hosting Github</h3>
+
+  <!-- Gambar pertama (step 1) -->
+  <div class="friend-list" style="flex-direction: column; align-items: center;">
+    <img src="dadang.png" alt="hosting step 1" style="max-width:350px; margin-bottom: 1px;">
+    <p style="font-size:18px; margin-top:10px; color:#333;">
+      This is a tutorial on how to host it
+    </p>
+  </div>
+
+  <!-- Button -->
+  <a href="https://youtu.be/IGxYiJC1cLY?si=xZD3aw8bZHsDnVEC"
+     target="_blank" rel="noopener" class="btn" style="margin-top:15px;">
+    <i class="fa-brands fa-github"></i> View Hosting Tutorials
+  </a>
+
+  <!-- Gambar kedua (step 2) dengan judul & isi -->
+  <div class="friend-list" style="flex-direction: column; align-items: center; margin-top:20px;">
+    <h3>Kalkulator</h3>
+    <img src="ss23.png" alt="hosting step 2" style="max-width:350px; margin:1px 0;">
+    <p style="font-size:18px; color:#333; text-align:center;">
+      this is my simple calculator
+    </p>
+  </div>
+</section>
+
+  <section id="contact" class="contact reveal">
+    <h2>Contact</h2>
+    <div class="contact-links">
+      <a href="mailto:gibrans732@gmail.com" target="_blank" rel="noopener" class="email">
+        <i class="fa-solid fa-envelope"></i> Email
+      </a>
+      <a href="https://instagram.com/davvnz_" target="_blank" rel="noopener" class="instagram">
+        <i class="fa-brands fa-instagram"></i> Instagram
+      </a>
+      <a href="https://wa.me/6281212306170" target="_blank" rel="noopener" class="whatsapp">
+        <i class="fa-brands fa-whatsapp"></i> WhatsApp
+      </a>
+      <a href="https://maps.app.goo.gl/nsro6JdGCHZZFx2r5" target="_blank" rel="noopener" class="maps">
+        <i class="fa-solid fa-location-dot"></i> Home Location
+      </a>
+    </div>
+  </section>
+
+  <footer class="reveal">
+    <p>&copy; 2025 - Dibuat oleh Davin Pratama</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
